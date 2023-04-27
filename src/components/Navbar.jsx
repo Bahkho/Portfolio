@@ -31,10 +31,6 @@ const Navbar = (props) => {
     },
     {
       id: 5,
-      text: "resume",
-    },
-    {
-      id: 6,
       text: "contact",
     },
   ];
@@ -82,7 +78,7 @@ const Navbar = (props) => {
         <div
           className={
             nav
-              ? "fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-black bg-[#f1f5f9] dark:bg-[#111827] ease-in-out duration-500 "
+              ? "fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-black bg-[#f1f5f9] dark:bg-[#111827] ease-in-out duration-700 "
               : "fixed left-[-100%]"
           }
         >

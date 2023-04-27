@@ -13,22 +13,22 @@ const Hero = (props) => {
           Frontend Developer
         </p>
         <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            Fast, flexible financing for
+          <p className=" text-xs font-bold py-4">
+          Monitor your data analytics to increase revenue for
           </p>
           <TypeAnimation
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#1e293b]"
-            sequence={["BTB", 1000, "BTC", 1000, "SASS", 1000]}
+            className=" text-xs font-bold pl-1 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text"
+            sequence={["BTB", 1000, "BTC", 1000, "& SASS", 1000]}
             speed={5}
             deletionSpeed={5}
             repeat={Infinity}
           />
         </div>
-        <p className="md:text-2xl text-xl font-bold text-gray-500">
+        {/* <p className="md:text-2xl text-xl font-bold text-gray-500">
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS
           platforms
-        </p>
-        <button className=" drop-shadow-lg bg-gradient-to-r from-teal-600 to-cyan-600 w-[200px] rounded-md font-medium my-6 mx-auto cursor-pointer py-3 text-black dark:text-white">
+        </p> */}
+        <button className=" shadow-xl hover:scale-105 duration-300 bg-gradient-to-r from-teal-600 to-cyan-600 w-[200px] rounded-md font-medium my-6 mx-auto cursor-pointer py-3 text-black dark:text-white">
           View Resume
           <span>
             <MdOutlineKeyboardArrowRight className="inline-block ml-1" size={20} />
