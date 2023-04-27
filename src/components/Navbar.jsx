@@ -72,7 +72,7 @@ const Navbar = (props) => {
             ))}
           </ul>
           <div
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer hover:rotate-[360deg] duration-300"
             onClick={props.toggle}
           >
             {props.mode ? <FaMoon size={20} /> : <FaSun size={20} />}
@@ -82,7 +82,7 @@ const Navbar = (props) => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-black bg-gray-900 dark:bg-white ease-in-out duration-500 "
+              ? "fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-black bg-gray-900 dark:bg-white ease-in-out duration-500 "
               : "fixed left-[-100%]"
           }
         >
