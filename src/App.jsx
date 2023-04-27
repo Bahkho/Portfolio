@@ -9,7 +9,7 @@ export default function App() {
     setTheme((prev) => !prev);
   };
   useEffect(() => {
-    document.body.style.backgroundColor = theme ? "#ffffff" : "#18181B";
+    document.body.style.backgroundColor = theme ? "#f1f5f9" : "#111827";
   }, [theme]);
 
   return (

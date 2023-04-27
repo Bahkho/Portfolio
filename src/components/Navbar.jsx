@@ -82,12 +82,12 @@ const Navbar = (props) => {
         <div
           className={
             nav
-              ? "fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-black bg-gray-900 dark:bg-white ease-in-out duration-500 "
+              ? "fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-black bg-[#f1f5f9] dark:bg-[#111827] ease-in-out duration-500 "
               : "fixed left-[-100%]"
           }
         >
           <div
-            className=" text-white dark:text-black flex m-8 py-4 gap-2 cursor-pointer border-b border-gray-600"
+            className=" text-black dark:text-white flex m-8 py-4 gap-2 cursor-pointer border-b border-black"
             onClick={handleNav}
           >
             <img src={logo} alt="logo" width={30} />
@@ -95,7 +95,7 @@ const Navbar = (props) => {
               Portfo<span className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">lio.</span>
             </h1>
           </div>
-          <ul className="block text-white dark:text-black p-4">
+          <ul className="block text-black dark:text-white p-4">
             {links.map(({ id, text }) => (
               <li
                 key={id}
