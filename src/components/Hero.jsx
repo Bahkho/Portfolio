@@ -10,7 +10,7 @@ const Hero = (props) => {
           Bakare Abdul
         </h1>
         <p className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text font-bold p-2">
-          Web Developer
+          software engineer
         </p>
         <div className="flex justify-center items-center">
           <p className=" text-xs font-bold py-4">
