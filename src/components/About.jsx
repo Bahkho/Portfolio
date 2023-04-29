@@ -17,7 +17,11 @@ const About = (props) => {
               Maiores autem harum natus pariatur adipisci.
             </p>
           </div>
-          <img className="w-[66%] mx-auto my-4 rounded-xl" src={pics} alt="image"  />
+          <img
+            className="w-[66%] mx-auto my-4 rounded-xl"
+            src={pics}
+            alt="image"
+          />
         </div>
       </div>
     </div>

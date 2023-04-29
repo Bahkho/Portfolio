@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import SocialLinks from "./components/SocialLinks";
+import Project from "./components/Project";
 
 export default function App() {
   const [theme, setTheme] = useState(true);
@@ -19,6 +20,7 @@ export default function App() {
       <Hero mode={theme} />
       <About mode={theme} />
       <SocialLinks mode={theme} />
+      <Project mode={theme} />
     </div>
   );
 }
