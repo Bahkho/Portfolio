@@ -51,7 +51,9 @@ const Navbar = (props) => {
             <img src={logo} alt="logo" width={30} className="hidden md:flex" />
             <h1 className=" font-medium text-3xl ">
               Portfo
-              <span className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">lio.</span>
+              <span className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">
+                lio.
+              </span>
             </h1>
           </div>
         </div>
@@ -83,12 +85,15 @@ const Navbar = (props) => {
           }
         >
           <div
-            className=" text-black dark:text-white flex m-8 py-4 gap-2 cursor-pointer border-b border-black"
+            className=" text-black dark:text-white flex m-8 py-4 gap-2 cursor-pointer border-b border-black dark:border-white"
             onClick={handleNav}
           >
             <img src={logo} alt="logo" width={30} />
             <h1 className=" font-medium text-3xl ">
-              Portfo<span className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">lio.</span>
+              Portfo
+              <span className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">
+                lio.
+              </span>
             </h1>
           </div>
           <ul className="block text-black dark:text-white p-4">

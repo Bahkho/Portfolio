@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import SocialLinks from "./components/SocialLinks";
 
 export default function App() {
   const [theme, setTheme] = useState(true);
@@ -15,8 +16,9 @@ export default function App() {
   return (
     <div>
       <Navbar mode={theme} toggle={toggleDarkMode} />
-      <Hero mode={theme}/>
-      <About mode={theme}/>
+      <Hero mode={theme} />
+      <About mode={theme} />
+      <SocialLinks mode={theme} />
     </div>
   );
 }
