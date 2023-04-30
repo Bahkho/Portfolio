@@ -11,10 +11,14 @@ const About = (props) => {
               About Me.
             </h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
-              pariatur cupiditate veritatis repellendus sapiente distinctio sunt
-              vel corrupti, quibusdam, quos illo repellat veniam deserunt.
-              Maiores autem harum natus pariatur adipisci.
+              I am also known as Bahkho. I am a student at NSCC (Nova Scotia
+              Community College) currently studying IT Programming. I focus more
+              on frontend development because it was the first field I started
+              with. I got into coding during COVID 19 pandemic when I downloaded
+              Mimo app. Moving further, i learnt HTML and CSS, researched
+              roadmaps, and watched online tutorials. My parents discovered my
+              interest in computer science and then enrolled me at NSCC. Aside
+              coding, i like to play games and watch movies.
             </p>
           </div>
           <img

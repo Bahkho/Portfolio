@@ -8,22 +8,26 @@ const Hero = (props) => {
     <div className={props.mode ? "" : "dark"}>
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-black dark:text-white flex flex-col justify-center">
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          Bakare Abdul
+          Bakare Abdulwahab
         </h1>
         <p className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text font-bold p-2">
-          Frontend Developer
+          Web Developer
         </p>
         <div className="flex justify-center items-center">
-          <p className=" text-xs font-bold py-4">
-            Monitor your data analytics to increase revenue for
+          <p className=" text-xs py-4">
+            I'm a web developer with 1+ years of experience. Using my design
+            skills, I create beautiful user interfaces for web applications, and
+            I also write tests and debug code to ensure quality. Additionally, I
+            develop analytical and functional web applications using my problem-
+            solving skills and industrial experience.
           </p>
-          <TypeAnimation
-            className=" text-xs font-bold pl-1 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text"
+          {/* <TypeAnimation
+            className=" text-xs pl-1 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text"
             sequence={["BTB", 1000, "BTC", 1000, "& SASS", 1000]}
             speed={5}
             deletionSpeed={5}
             repeat={Infinity}
-          />
+          /> */}
         </div>
         {/* <p className="md:text-2xl text-xl font-bold text-gray-500">
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS
