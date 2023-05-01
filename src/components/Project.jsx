@@ -11,38 +11,38 @@ const Project = (props) => {
     {
       id: 1,
       src: tenzies,
-      // style: " w-[32px] h-[32px]",
-    },
-    {
-      id: 2,
-      src: dataFinance,
-      // style: " w-[32px] h-[32px]",
-    },
-    {
-      id: 3,
-      src: routing,
-      // style: " w-[32px] h-[32px]",
+      style: " w-[700px] h-[300px]",
     },
     {
       id: 4,
       src: memeGenerator,
-      // style: " w-[32px] h-[32px]",
+      style: " w-[700px] h-[300px]",
+    },
+    {
+      id: 3,
+      src: routing,
+      style: " w-[700px] h-[300px]",
+    },
+    {
+      id: 2,
+      src: dataFinance,
+      style: " w-[700px] h-[300px]",
     },
     {
       id: 5,
       src: codingFacts,
-      // style: " w-[32px] h-[32px]",
+      style: " w-[700px] h-[300px]",
     },
     {
       id: 6,
       src: collegePortfolio,
-      // style: " w-[32px] h-[32px]",
+      style: " w-[700px] h-[300px]",
     },
   ];
 
   return (
     <div className={props.mode ? "" : "dark"}>
-      <div className="w-full md:h-screen text-black dark:text-white">
+      <div className="w-full text-black dark:text-white">
         <div className=" max-w-[1240px] mx-auto p-4 flex flex-col justify-center">
           <div className="pb-8">
             <p className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">
@@ -51,11 +51,11 @@ const Project = (props) => {
             <p className="py-6">Check out some of my works right here</p>
           </div>
 
-          <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-7 sm:px-0">
             {projects.map(({ id, src, style }) => (
               <div
                 key={id}
-                className=" shadow-md shadow-[#e2e8f0] dark:shadow-gray-600 rounded-lg"
+                className=" shadow-lg shadow-[#e2e8f0] dark:shadow-gray-600 rounded-lg"
               >
                 <img
                   src={src}
