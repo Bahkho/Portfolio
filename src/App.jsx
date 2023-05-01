@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import SocialLinks from "./components/SocialLinks";
 import Project from "./components/Project";
+import Skills from "./components/Skills";
 
 export default function App() {
   const [theme, setTheme] = useState(true);
@@ -21,6 +22,7 @@ export default function App() {
       <About mode={theme} />
       <SocialLinks mode={theme} />
       <Project mode={theme} />
+      <Skills mode={theme} />
     </div>
   );
 }
