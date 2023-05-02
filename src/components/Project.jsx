@@ -11,32 +11,26 @@ const Project = (props) => {
     {
       id: 1,
       src: tenzies,
-      style: " w-[700px] h-[300px]",
     },
     {
       id: 4,
       src: memeGenerator,
-      style: " w-[700px] h-[300px]",
     },
     {
       id: 3,
       src: routing,
-      style: " w-[700px] h-[300px]",
     },
     {
       id: 2,
       src: dataFinance,
-      style: " w-[700px] h-[300px]",
     },
     {
       id: 5,
       src: codingFacts,
-      style: " w-[700px] h-[300px]",
     },
     {
       id: 6,
       src: collegePortfolio,
-      style: " w-[700px] h-[300px]",
     },
   ];
 
@@ -52,7 +46,7 @@ const Project = (props) => {
           </div>
 
           <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-7 sm:px-0">
-            {projects.map(({ id, src, style }) => (
+            {projects.map(({ id, src }) => (
               <div
                 key={id}
                 className=" shadow-lg shadow-[#e2e8f0] dark:shadow-gray-600 rounded-lg"
@@ -60,14 +54,16 @@ const Project = (props) => {
                 <img
                   src={src}
                   alt="/"
-                  className={`rounded-md duration-200 hover:scale-105 ${style}`}
+                  className={`rounded-md duration-200 hover:scale-105 w-[700px] h-[300px]`}
                 />
 
                 <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> */}
+                  <button className="w-1/2 px-6 py-3 m-4 duration-500 hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4">
                     Demo
                   </button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> */}
+                  <button className="w-1/2 px-6 py-3 m-4 duration-500 hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4">
                     Code
                   </button>
                 </div>

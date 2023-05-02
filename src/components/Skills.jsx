@@ -8,6 +8,7 @@ import windows from "../assets/icons/windows-10-icon.svg";
 import git from "../assets/icons/git-icon.svg";
 import github from "../assets/icons/github-icon.svg";
 import redux from "../assets/icons/redux-icon.svg";
+import vite from "../assets/icons/vitejs.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -70,6 +71,12 @@ const Skills = (props) => {
       src: windows,
       paragraph: "Windows",
       style: "shadow-blue-600",
+    },
+    {
+      id: 11,
+      src: vite,
+      paragraph: "Vite JS",
+      style: "shadow-violet-600",
     },
   ];
 
