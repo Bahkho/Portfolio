@@ -5,6 +5,7 @@ import About from "./components/About";
 import SocialLinks from "./components/SocialLinks";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 export default function App() {
   const [theme, setTheme] = useState(true);
@@ -23,6 +24,7 @@ export default function App() {
       <SocialLinks mode={theme} />
       <Project mode={theme} />
       <Skills mode={theme} />
+      <Contact mode={theme} />
     </div>
   );
 }

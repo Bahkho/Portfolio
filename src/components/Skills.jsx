@@ -88,11 +88,7 @@ const Skills = (props) => {
             {skills.map(({ id, src, paragraph, style }) => (
               <div
                 key={id}
-                className={
-                  "rounded-lg py-2 shadow-md hover:scale-110 duration-500" +
-                  " " +
-                  style
-                }
+                className={`rounded-lg py-2 shadow-md hover:scale-110 duration-500 ${style}`}
               >
                 <img
                   src={src}

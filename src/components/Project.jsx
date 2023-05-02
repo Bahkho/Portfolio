@@ -60,9 +60,7 @@ const Project = (props) => {
                 <img
                   src={src}
                   alt="/"
-                  className={
-                    "rounded-md duration-200 hover:scale-105" + " " + style
-                  }
+                  className={`rounded-md duration-200 hover:scale-105 ${style}`}
                 />
 
                 <div className="flex items-center justify-center">
