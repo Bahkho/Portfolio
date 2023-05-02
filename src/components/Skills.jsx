@@ -74,8 +74,8 @@ const Skills = (props) => {
   ];
 
   return (
-    <div className={props.mode ? "" : "dark"}>
-      <div className="w-full text-black dark:text-white">
+    <div name="skills" className={props.mode ? "" : "dark"}>
+      <div className="w-full text-black dark:text-white dark:bg-[#1e293b] bg-[#e2e8f0] mt-8">
         <div className="max-w-[1240px] mx-auto p-4 flex flex-col justify-center">
           <div>
             <p className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text">

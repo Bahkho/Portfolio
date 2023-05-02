@@ -5,7 +5,7 @@ const Hero = (props) => {
   const resume =
     "https://drive.google.com/file/d/10HUxh84NjqQmN2C4KSzdrvqocBWgmjDH/view?usp=share_link";
   return (
-    <div className={props.mode ? "" : "dark"}>
+    <div name="home" className={props.mode ? "" : "dark"}>
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-black dark:text-white flex flex-col justify-center">
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
           Bakare Abdulwahab
@@ -35,7 +35,7 @@ const Hero = (props) => {
         </p> */}
         <div>
           <a href={resume} target="_blank">
-            <button className=" shadow-xl hover:scale-105 duration-300 bg-gradient-to-r from-teal-600 to-cyan-600 w-[200px] rounded-md font-medium my-6 mx-auto cursor-pointer py-3 text-black dark:text-white">
+            <button className=" shadow-xl hover:scale-110 duration-300 bg-gradient-to-r from-teal-600 to-cyan-600 w-[200px] rounded-md font-medium my-6 mx-auto cursor-pointer py-3 text-black dark:text-white">
               View Resume
               <span>
                 <MdOutlineKeyboardArrowRight

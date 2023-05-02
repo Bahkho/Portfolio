@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaMoon, FaSun, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 // import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 import logo from "../assets/favicon.png";
@@ -65,7 +66,9 @@ const Navbar = (props) => {
                 key={id}
                 className=" px-4 capitalize hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4 cursor-pointer font-medium"
               >
-                {text}
+                <Link to={text} smooth duration={200}>
+                  {text}
+                </Link>
               </li>
             ))}
           </ul>
@@ -103,7 +106,9 @@ const Navbar = (props) => {
                 className=" p-4 uppercase hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4 cursor-pointer font-medium"
                 onClick={handleNav}
               >
-                {text}
+                <Link onClick={handleNav} to={text} smooth duration={200}>
+                  {text}
+                </Link>
               </li>
             ))}
           </ul>

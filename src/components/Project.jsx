@@ -41,7 +41,7 @@ const Project = (props) => {
   ];
 
   return (
-    <div className={props.mode ? "" : "dark"}>
+    <div name="projects" className={props.mode ? "" : "dark"}>
       <div className="w-full text-black dark:text-white">
         <div className=" max-w-[1240px] mx-auto p-4 flex flex-col justify-center">
           <div className="pb-8">
