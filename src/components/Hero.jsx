@@ -34,7 +34,7 @@ const Hero = (props) => {
           platforms
         </p> */}
         <div>
-          <a href={resume} target="_blank">
+          <a href={resume} target="_blank" rel="noreferrer">
             <button className=" shadow-xl hover:scale-110 duration-300 bg-gradient-to-r from-teal-600 to-cyan-600 w-[200px] rounded-md font-medium my-6 mx-auto cursor-pointer py-3 text-black dark:text-white">
               View Resume
               <span>

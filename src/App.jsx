@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 export default function App() {
-  const [theme, setTheme] = useState(true);
+  const [theme, setTheme] = useState(false);
   const toggleDarkMode = () => {
     setTheme((prev) => !prev);
   };

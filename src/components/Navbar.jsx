@@ -64,7 +64,7 @@ const Navbar = (props) => {
             {links.map(({ id, text }) => (
               <li
                 key={id}
-                className=" px-4 capitalize hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4 cursor-pointer font-medium"
+                className=" px-4 capitalize duration-500 hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4 cursor-pointer font-medium"
               >
                 <Link to={text} smooth duration={200}>
                   {text}
@@ -103,7 +103,7 @@ const Navbar = (props) => {
             {links.map(({ id, text }) => (
               <li
                 key={id}
-                className=" p-4 uppercase hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4 cursor-pointer font-medium"
+                className=" p-4 uppercase duration-500 hover:underline hover:underline-offset-8 hover:text-teal-600 hover:decoration-4 cursor-pointer font-medium"
                 onClick={handleNav}
               >
                 <Link onClick={handleNav} to={text} smooth duration={200}>
