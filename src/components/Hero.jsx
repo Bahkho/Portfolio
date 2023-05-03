@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Hero = (props) => {
   const resume =
-    "https://drive.google.com/file/d/10HUxh84NjqQmN2C4KSzdrvqocBWgmjDH/view?usp=share_link";
+    "https://drive.google.com/file/d/1vn3qORcnM4ksvE3tHm_5nx_oKje5VigT/view?usp=share_link";
   return (
     <div name="home" className={props.mode ? "" : "dark"}>
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-black dark:text-white flex flex-col justify-center">
