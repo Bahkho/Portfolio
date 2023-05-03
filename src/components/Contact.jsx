@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 
@@ -53,6 +54,15 @@ const Contact = (props) => {
     },
   ];
 
+  const alert = () => {
+    Swal.fire({
+      icon: "success",
+      title: "Message Sent",
+      showConfirmButton: false,
+      timer: 1500,
+    });
+  };
+
   return (
     <div name="contact" className={props.mode ? "" : "dark"}>
       <div className="w-full text-black dark:text-white h-screen">
@@ -89,7 +99,9 @@ const Contact = (props) => {
                 className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
               ></textarea>
               <button className="px-6 py-3 my-8 flex items-center hover:scale-100 duration-300 bg-gradient-to-r from-teal-600 to-cyan-600 rounded-md">
-                <div className="mx-auto">Let's Talk</div>
+                <div className="mx-auto" onClick={alert}>
+                  Let's Talk
+                </div>
               </button>
             </form>
           </div>
