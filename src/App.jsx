@@ -6,6 +6,7 @@ import SocialLinks from "./components/SocialLinks";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import BackToTopButton from "./components/BackToTopButton";
 
 export default function App() {
   const [theme, setTheme] = useState(false);
@@ -25,6 +26,7 @@ export default function App() {
       <Project mode={theme} />
       <Skills mode={theme} />
       <Contact mode={theme} />
+      <BackToTopButton mode={theme} />
     </div>
   );
 }
