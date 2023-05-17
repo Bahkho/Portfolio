@@ -13,12 +13,12 @@ const About = (props) => {
             <p>
               I am also known as Bahkho. I am a student at NSCC (Nova Scotia
               Community College) currently studying IT Programming. I focus more
-              on frontend development because it was the first field I started
-              with. I got into coding during COVID 19 pandemic when I downloaded
-              Mimo app. Moving further, i learnt HTML and CSS, researched
-              roadmaps, and watched online tutorials. My parents discovered my
-              interest in computer science and then enrolled me at NSCC. Aside
-              coding, i like to play games and watch movies.
+              on web development because it was the first field I started with.
+              I got into coding during COVID 19 pandemic when I downloaded Mimo
+              app. Moving further, i learnt HTML and CSS, researched roadmaps,
+              and watched online tutorials. My parents discovered my interest in
+              programming and then enrolled me at NSCC. Aside coding, i like to
+              play games and watch movies.
             </p>
           </div>
           <img
