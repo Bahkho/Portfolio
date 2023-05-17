@@ -9,6 +9,7 @@ import git from "../assets/icons/git-icon.svg";
 import github from "../assets/icons/github-icon.svg";
 import redux from "../assets/icons/redux-icon.svg";
 import vite from "../assets/icons/vitejs.svg";
+import python from "../assets/icons/python.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -74,6 +75,12 @@ const Skills = (props) => {
     },
     {
       id: 11,
+      src: python,
+      paragraph: "Python",
+      style: "shadow-yellow-300",
+    },
+    {
+      id: 12,
       src: vite,
       paragraph: "Vite JS",
       style: "shadow-violet-600",
