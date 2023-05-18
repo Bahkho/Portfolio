@@ -7,9 +7,10 @@ import tailwind from "../assets/icons/tailwind-css-icon.svg";
 import windows from "../assets/icons/windows-10-icon.svg";
 import git from "../assets/icons/git-icon.svg";
 import github from "../assets/icons/github-icon.svg";
-import redux from "../assets/icons/redux-icon.svg";
+// import redux from "../assets/icons/redux-icon.svg";
 import vite from "../assets/icons/vitejs.svg";
 import python from "../assets/icons/python.svg";
+import firebase from "../assets/icons/firebase.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -63,9 +64,9 @@ const Skills = (props) => {
     },
     {
       id: 9,
-      src: redux,
-      paragraph: "Redux",
-      style: "shadow-indigo-600",
+      src: firebase,
+      paragraph: "Firebase",
+      style: "shadow-amber-600",
     },
     {
       id: 10,
