@@ -7,6 +7,7 @@ import tailwind from "../assets/icons/tailwind-css-icon.svg";
 import windows from "../assets/icons/windows-10-icon.svg";
 import git from "../assets/icons/git-icon.svg";
 import github from "../assets/icons/github-icon.svg";
+import sql from "../assets/icons/sql-server.svg";
 // import redux from "../assets/icons/redux-icon.svg";
 import vite from "../assets/icons/vitejs.svg";
 import python from "../assets/icons/python.svg";
@@ -85,6 +86,12 @@ const Skills = (props) => {
       src: vite,
       paragraph: "Vite JS",
       style: "shadow-violet-600",
+    },
+    {
+      id: 13,
+      src: sql,
+      paragraph: "Microsoft SQL Server",
+      style: "shadow-red-700",
     },
   ];
 
