@@ -5,6 +5,7 @@ import routing from "../assets/routing.png";
 import tenzies from "../assets/tenzies.png";
 import memeGenerator from "../assets/memeGenerator.png";
 import codingFacts from "../assets/codingFacts.png";
+import todoApp from "../assets/todo-app.png";
 
 const Project = (props) => {
   const projects = [
@@ -15,10 +16,16 @@ const Project = (props) => {
       code: "https://github.com/Bahkho/tenziesGame.git",
     },
     {
-      id: 4,
+      id: 2,
       src: memeGenerator,
       demo: "https://meme-generator-00.netlify.app",
       code: "https://github.com/Bahkho/memeGenerator.git",
+    },
+    {
+      id: 7,
+      src: todoApp,
+      demo: "https://todo-app-eta-pearl.vercel.app/",
+      code: "https://github.com/Bahkho/Todo-App.git",
     },
     {
       id: 3,
@@ -27,7 +34,7 @@ const Project = (props) => {
       code: "https://github.com/Bahkho/React-Router.git",
     },
     {
-      id: 2,
+      id: 4,
       src: dataFinance,
       demo: "https://data-finance-01.netlify.app/",
       code: "https://github.com/Bahkho/React-Tailwind.git",
