@@ -24,7 +24,7 @@ const Project = (props) => {
     {
       id: 7,
       src: todoApp,
-      demo: "https://todo-app-eta-pearl.vercel.app/",
+      demo: "https://todo-app-bahkho.vercel.app/",
       code: "https://github.com/Bahkho/Todo-App.git",
     },
     {
