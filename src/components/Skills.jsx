@@ -16,34 +16,28 @@ import firebase from "../assets/icons/firebase.svg";
 const Skills = (props) => {
   const skills = [
     {
-      id: 1,
-      src: html,
-      paragraph: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      paragraph: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
       id: 3,
       src: javascript,
       paragraph: "Javascript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
-      src: bootstrap,
-      paragraph: "Bootstrap",
-      style: "shadow-purple-500",
+      id: 11,
+      src: python,
+      paragraph: "Python",
+      style: "shadow-yellow-300",
     },
     {
-      id: 5,
-      src: tailwind,
-      paragraph: "Tailwind CSS",
-      style: "shadow-cyan-500",
+      id: 13,
+      src: sql,
+      paragraph: "Microsoft SQL Server",
+      style: "shadow-red-700",
+    },
+    {
+      id: 9,
+      src: firebase,
+      paragraph: "Firebase",
+      style: "shadow-amber-600",
     },
     {
       id: 6,
@@ -51,6 +45,13 @@ const Skills = (props) => {
       paragraph: "React JS",
       style: "shadow-sky-500",
     },
+    {
+      id: 5,
+      src: tailwind,
+      paragraph: "Tailwind CSS",
+      style: "shadow-cyan-500",
+    },
+
     {
       id: 7,
       src: git,
@@ -64,11 +65,24 @@ const Skills = (props) => {
       style: "shadow-gray-500",
     },
     {
-      id: 9,
-      src: firebase,
-      paragraph: "Firebase",
-      style: "shadow-amber-600",
+      id: 1,
+      src: html,
+      paragraph: "HTML",
+      style: "shadow-orange-500",
     },
+    {
+      id: 2,
+      src: css,
+      paragraph: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 4,
+      src: bootstrap,
+      paragraph: "Bootstrap",
+      style: "shadow-purple-500",
+    },
+
     {
       id: 10,
       src: windows,
@@ -76,22 +90,10 @@ const Skills = (props) => {
       style: "shadow-blue-600",
     },
     {
-      id: 11,
-      src: python,
-      paragraph: "Python",
-      style: "shadow-yellow-300",
-    },
-    {
       id: 12,
       src: vite,
       paragraph: "Vite JS",
       style: "shadow-violet-600",
-    },
-    {
-      id: 13,
-      src: sql,
-      paragraph: "Microsoft SQL Server",
-      style: "shadow-red-700",
     },
   ];
 
