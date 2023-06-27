@@ -12,6 +12,7 @@ import sql from "../assets/icons/sql-server.svg";
 import vite from "../assets/icons/vitejs.svg";
 import python from "../assets/icons/python.svg";
 import firebase from "../assets/icons/firebase.svg";
+import typescript from "../assets/icons/typescript-icon.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -20,6 +21,12 @@ const Skills = (props) => {
       src: javascript,
       paragraph: "Javascript",
       style: "shadow-yellow-500",
+    },
+    {
+      id: 14,
+      src: typescript,
+      paragraph: "Typescript",
+      style: "shadow-blue-600",
     },
     {
       id: 11,
