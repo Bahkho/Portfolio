@@ -10,21 +10,42 @@ const Contact = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_em9tzbl",
-        "template_s2hgq3n",
-        form.current,
-        "JYh1xJia93nPcy7Tf"
-      )
-      .then(
-        (result) => {
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    const name = form.current.user_name.value;
+    const email = form.current.user_email.value;
+    const message = form.current.message.value;
+
+    if (!name || !email || !message) {
+      Swal.fire({
+        icon: "error",
+        title: "Please fill in all the required fields.",
+        showConfirmButton: false,
+        timer: 2000,
+      });
+      return;
+    } else {
+      Swal.fire({
+        icon: "success",
+        title: "Message Sent",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+
+      emailjs
+        .sendForm(
+          "service_em9tzbl",
+          "template_s2hgq3n",
+          form.current,
+          "JYh1xJia93nPcy7Tf"
+        )
+        .then(
+          (result) => {
+            e.target.reset();
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
 
   const links = [
@@ -53,15 +74,6 @@ const Contact = (props) => {
       text: "Whatsapp",
     },
   ];
-
-  const alert = () => {
-    Swal.fire({
-      icon: "success",
-      title: "Message Sent",
-      showConfirmButton: false,
-      timer: 1500,
-    });
-  };
 
   return (
     <div name="contact" className={props.mode ? "" : "dark"}>
@@ -99,9 +111,7 @@ const Contact = (props) => {
                 className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
               ></textarea>
               <button className="px-6 py-3 my-8 flex items-center hover:scale-100 duration-300 bg-gradient-to-r from-teal-600 to-cyan-600 rounded-md">
-                <div className="mx-auto" onClick={alert}>
-                  Let's Talk
-                </div>
+                <div className="mx-auto">Let's Talk</div>
               </button>
             </form>
           </div>

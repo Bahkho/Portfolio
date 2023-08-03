@@ -11,15 +11,16 @@ const Hero = (props) => {
           Bakare Abdulwahab
         </h1>
         <p className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text font-bold p-2">
-          Web Developer
+          Software Developer
         </p>
         <div className="flex justify-center items-center">
           <p className=" text-xs py-4">
-            I'm a web developer with 1+ years of experience. Using my design
-            skills, I create beautiful user interfaces for web applications, and
-            I also write tests and debug code to ensure quality. Additionally, I
-            develop analytical and functional web applications using my problem-
-            solving skills and industrial experience.
+            I'm a software developer with 1+ years of experience. Using my
+            design skills, I create beautiful user interfaces for web
+            applications, and I also write tests and debug code to ensure
+            quality. Additionally, I develop analytical and functional web
+            applications using my problem- solving skills and industrial
+            experience.
           </p>
           {/* <TypeAnimation
             className=" text-xs pl-1 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text"
