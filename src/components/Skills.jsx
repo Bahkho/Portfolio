@@ -99,7 +99,7 @@ const Skills = (props) => {
     {
       id: 12,
       src: vite,
-      paragraph: "Vite JS",
+      paragraph: "Vite",
       style: "shadow-violet-600",
     },
   ];

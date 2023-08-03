@@ -10,6 +10,12 @@ import todoApp from "../assets/todo-app.png";
 const Project = (props) => {
   const projects = [
     {
+      id: 7,
+      src: todoApp,
+      demo: "https://todo-app-bahkho.vercel.app/",
+      code: "https://github.com/Bahkho/Todo-App.git",
+    },
+    {
       id: 1,
       src: tenzies,
       demo: "https://tenzies-game-01.netlify.app",
@@ -20,12 +26,6 @@ const Project = (props) => {
       src: memeGenerator,
       demo: "https://meme-generator-00.netlify.app",
       code: "https://github.com/Bahkho/memeGenerator.git",
-    },
-    {
-      id: 7,
-      src: todoApp,
-      demo: "https://todo-app-bahkho.vercel.app/",
-      code: "https://github.com/Bahkho/Todo-App.git",
     },
     {
       id: 3,
