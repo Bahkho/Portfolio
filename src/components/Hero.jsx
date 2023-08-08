@@ -15,7 +15,7 @@ const Hero = (props) => {
         </p>
         <div className="flex justify-center items-center">
           <p className=" text-xs py-4">
-            I'm a software developer with 1+ years of experience. Using my
+            I'm a software developer with 1.7 years of experience. Using my
             design skills, I create beautiful user interfaces for web
             applications, and I also write tests and debug code to ensure
             quality. Additionally, I develop analytical and functional web

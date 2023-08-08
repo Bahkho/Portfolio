@@ -14,10 +14,10 @@ const About = (props) => {
               I am also known as Bahkho. I am a student at NSCC (Nova Scotia
               Community College) currently studying IT Programming. I focus more
               on web development because it was the first field I started with.
-              Moving further, i learnt HTML and CSS, researched roadmaps, and
-              watched online tutorials. My parents discovered my interest in
-              programming and then enrolled me at NSCC. Aside coding, i like to
-              play basketball and watch crime movies.
+              Moving further, i learnt Python, researched roadmaps, and watched
+              online tutorials. My parents discovered my interest in programming
+              and then enrolled me at NSCC. Aside coding, i like to play
+              basketball and watch crime movies.
             </p>
           </div>
           <img
