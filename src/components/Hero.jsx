@@ -14,7 +14,7 @@ const Hero = (props) => {
           Software Developer
         </p>
         <div className="flex justify-center items-center">
-          <p className=" text-xs py-4">
+          <p className=" text-xs py-4 px-3">
             I'm a software developer with 1.7 years of experience. Using my
             design skills, I create beautiful user interfaces for web
             applications, and I also write tests and debug code to ensure
