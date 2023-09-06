@@ -13,6 +13,7 @@ import vite from "../assets/icons/vitejs.svg";
 import python from "../assets/icons/python.svg";
 import firebase from "../assets/icons/firebase.svg";
 import typescript from "../assets/icons/typescript-icon.svg";
+import next from "../assets/icons/nextjs-icon.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -51,6 +52,12 @@ const Skills = (props) => {
       src: react,
       paragraph: "React JS",
       style: "shadow-sky-500",
+    },
+    {
+      id: 15,
+      src: next,
+      paragraph: "Next JS",
+      style: "shadow-slate-500",
     },
     {
       id: 5,
