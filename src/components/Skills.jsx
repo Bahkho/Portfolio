@@ -9,11 +9,13 @@ import git from "../assets/icons/git-icon.svg";
 import github from "../assets/icons/github-icon.svg";
 import sql from "../assets/icons/sql-server.svg";
 // import redux from "../assets/icons/redux-icon.svg";
-import vite from "../assets/icons/vitejs.svg";
+import figma from "../assets/icons/figma.svg";
 import python from "../assets/icons/python.svg";
 import firebase from "../assets/icons/firebase.svg";
 import typescript from "../assets/icons/typescript-icon.svg";
 import next from "../assets/icons/nextjs-icon.svg";
+import cProgram from "../assets/icons/c.svg";
+import java from "../assets/icons/java.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -34,6 +36,18 @@ const Skills = (props) => {
       src: python,
       paragraph: "Python",
       style: "shadow-yellow-300",
+    },
+    {
+      id: 16,
+      src: java,
+      paragraph: "Java",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 17,
+      src: cProgram,
+      paragraph: "C Language",
+      style: "shadow-indigo-700",
     },
     {
       id: 13,
@@ -105,8 +119,8 @@ const Skills = (props) => {
     },
     {
       id: 12,
-      src: vite,
-      paragraph: "Vite",
+      src: figma,
+      paragraph: "Figma",
       style: "shadow-violet-600",
     },
   ];

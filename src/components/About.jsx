@@ -11,13 +11,33 @@ const About = (props) => {
               About Me
             </h1>
             <p>
-              I am also known as Bahkho. I am a student at NSCC (Nova Scotia
-              Community College) currently studying IT Programming. I focus more
-              on web development because it was the first field I started with.
-              Moving further, i learnt Python, researched roadmaps, and watched
-              online tutorials. My parents discovered my interest in programming
-              and then enrolled me at NSCC. Aside coding, i like to play
-              basketball and watch crime movies.
+              I go by the name Bahkho, and I am a dedicated student at NSCC
+              (Nova Scotia Community College) pursuing a degree in IT
+              Programming. My journey in the world of technology began with a
+              strong inclination towards web development, which remains my
+              primary focus. Starting with web development, I soon expanded my
+              skills to include Python programming. My commitment to growth has
+              led me to thoroughly research industry roadmaps and diligently
+              follow online tutorials to enhance my expertise.
+              <br />
+              <br />
+              My passion for programming was first recognized by my parents, who
+              encouraged me to further my education at NSCC. This decision has
+              been instrumental in shaping my career in the IT field.
+              <br />
+              <br />
+              Beyond coding, I have a diverse range of interests. In my free
+              time, I enjoy the thrill of playing basketball and indulge in my
+              fascination with crime movies. These interests provide a
+              well-rounded perspective that complements my technical skills.
+              <br />
+              <br />I am driven by a continuous quest for knowledge and an
+              unwavering dedication to my craft. I am excited about the
+              opportunities that the world of IT programming offers and am
+              committed to making a meaningful contribution. My journey is
+              marked by a strong foundation in web development, proficiency in
+              Python, and a relentless pursuit of excellence in the dynamic
+              field of technology.
             </p>
           </div>
           <img

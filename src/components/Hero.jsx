@@ -15,12 +15,23 @@ const Hero = (props) => {
         </p>
         <div className="flex justify-center items-center">
           <p className=" text-xs py-4 px-3">
-            I'm a software developer with 1.7 years of experience. Using my
-            design skills, I create beautiful user interfaces for web
-            applications, and I also write tests and debug code to ensure
-            quality. Additionally, I develop analytical and functional web
-            applications using my problem- solving skills and industrial
-            experience.
+            I am a software developer with a solid track record of 2 years in
+            the industry. Leveraging my design expertise, I craft visually
+            stunning user interfaces for web applications. My dedication to
+            quality extends beyond aesthetics; I meticulously write tests and
+            conduct thorough debugging to ensure the flawless performance of the
+            software.
+            {/* <br />
+            In addition to my design and debugging proficiency, I specialize in
+            developing analytical and functional web applications. Drawing upon
+            my problem-solving skills and real-world industrial experience, I
+            create solutions that not only meet the needs of the end users but
+            also drive innovation in the digital landscape.
+            <br />
+            I'm passionate about transforming ideas into reality and thrive on
+            the challenges that come with each new project. I'm ready to bring
+            my expertise to your team and contribute to the success of your next
+            venture. */}
           </p>
           {/* <TypeAnimation
             className=" text-xs pl-1 bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text"
