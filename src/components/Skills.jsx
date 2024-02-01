@@ -16,6 +16,9 @@ import typescript from "../assets/icons/typescript-icon.svg";
 import next from "../assets/icons/nextjs-icon.svg";
 import cProgram from "../assets/icons/c.svg";
 import java from "../assets/icons/java.svg";
+import cSharp from "../assets/icons/c-sharp.svg";
+import cPlusPlus from "../assets/icons/c-plus-plus.svg";
+import kotlin from "../assets/icons/kotlin.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -50,6 +53,24 @@ const Skills = (props) => {
       style: "shadow-indigo-700",
     },
     {
+      id: 17,
+      src: cPlusPlus,
+      paragraph: "C++",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 17,
+      src: cSharp,
+      paragraph: "C#",
+      style: "shadow-violet-700",
+    },
+    {
+      id: 17,
+      src: kotlin,
+      paragraph: "Kotlin",
+      style: "shadow-rose-400",
+    },
+    {
       id: 13,
       src: sql,
       paragraph: "Microsoft SQL Server",
@@ -81,6 +102,13 @@ const Skills = (props) => {
     },
 
     {
+      id: 4,
+      src: bootstrap,
+      paragraph: "Bootstrap",
+      style: "shadow-purple-500",
+    },
+
+    {
       id: 7,
       src: git,
       paragraph: "Git",
@@ -103,12 +131,6 @@ const Skills = (props) => {
       src: css,
       paragraph: "CSS",
       style: "shadow-blue-500",
-    },
-    {
-      id: 4,
-      src: bootstrap,
-      paragraph: "Bootstrap",
-      style: "shadow-purple-500",
     },
 
     {
