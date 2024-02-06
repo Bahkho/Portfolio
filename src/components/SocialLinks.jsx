@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsWhatsapp, BsTwitterX } from "react-icons/bs";
 
 const SocialLinks = (props) => {
   const links = [
@@ -27,7 +27,7 @@ const SocialLinks = (props) => {
       id: 3,
       child: (
         <>
-          Twitter <FaTwitter size={30} />
+          X <BsTwitterX size={30} />
         </>
       ),
       href: "https://twitter.com/Bahkho______",

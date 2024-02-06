@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsWhatsapp, BsTwitterX } from "react-icons/bs";
 
 const Contact = (props) => {
@@ -65,7 +65,7 @@ const Contact = (props) => {
       id: 3,
       child: <BsTwitterX size={40} />,
       href: "https://twitter.com/Bahkho______",
-      text: "X-Twitter",
+      text: "X",
     },
     {
       id: 4,
