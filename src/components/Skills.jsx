@@ -1,12 +1,12 @@
-import html from "../assets/icons/html-icon.svg";
-import css from "../assets/icons/css-icon.svg";
+// import html from "../assets/icons/html-icon.svg";
+// import css from "../assets/icons/css-icon.svg";
 import javascript from "../assets/icons/javascript-icon.svg";
 import react from "../assets/icons/react-js-icon.svg";
-import bootstrap from "../assets/icons/bootstrap-5-logo-icon.svg";
+// import bootstrap from "../assets/icons/bootstrap-5-logo-icon.svg";
 import tailwind from "../assets/icons/tailwind-css-icon.svg";
-import windows from "../assets/icons/windows-10-icon.svg";
-import git from "../assets/icons/git-icon.svg";
-import github from "../assets/icons/github-icon.svg";
+// import windows from "../assets/icons/windows-10-icon.svg";
+// import git from "../assets/icons/git-icon.svg";
+// import github from "../assets/icons/github-icon.svg";
 import sql from "../assets/icons/sql-server.svg";
 // import redux from "../assets/icons/redux-icon.svg";
 import figma from "../assets/icons/figma.svg";
@@ -101,44 +101,44 @@ const Skills = (props) => {
       style: "shadow-cyan-500",
     },
 
-    {
-      id: 4,
-      src: bootstrap,
-      paragraph: "Bootstrap",
-      style: "shadow-purple-500",
-    },
+    // {
+    //   id: 4,
+    //   src: bootstrap,
+    //   paragraph: "Bootstrap",
+    //   style: "shadow-purple-500",
+    // },
 
-    {
-      id: 7,
-      src: git,
-      paragraph: "Git",
-      style: "shadow-orange-600",
-    },
-    {
-      id: 8,
-      src: github,
-      paragraph: "Github",
-      style: "shadow-gray-500",
-    },
-    {
-      id: 1,
-      src: html,
-      paragraph: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      paragraph: "CSS",
-      style: "shadow-blue-500",
-    },
+    // {
+    //   id: 7,
+    //   src: git,
+    //   paragraph: "Git",
+    //   style: "shadow-orange-600",
+    // },
+    // {
+    //   id: 8,
+    //   src: github,
+    //   paragraph: "Github",
+    //   style: "shadow-gray-500",
+    // },
+    // {
+    //   id: 1,
+    //   src: html,
+    //   paragraph: "HTML",
+    //   style: "shadow-orange-500",
+    // },
+    // {
+    //   id: 2,
+    //   src: css,
+    //   paragraph: "CSS",
+    //   style: "shadow-blue-500",
+    // },
 
-    {
-      id: 10,
-      src: windows,
-      paragraph: "Windows",
-      style: "shadow-blue-600",
-    },
+    // {
+    //   id: 10,
+    //   src: windows,
+    //   paragraph: "Windows",
+    //   style: "shadow-blue-600",
+    // },
     {
       id: 12,
       src: figma,
