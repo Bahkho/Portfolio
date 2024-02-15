@@ -70,11 +70,13 @@ const Project = (props) => {
                 key={id}
                 className=" shadow-lg shadow-[#e2e8f0] dark:shadow-gray-600 rounded-lg"
               >
-                <img
-                  src={src}
-                  alt="/"
-                  className={`rounded-md duration-200 hover:scale-105 w-[700px] h-[300px]`}
-                />
+                <a href={demo} target="_blank" rel="noreferrer">
+                  <img
+                    src={src}
+                    alt="/"
+                    className={`rounded-md duration-200 hover:scale-105 w-[700px] h-[300px]`}
+                  />
+                </a>
 
                 <div className="flex items-center justify-center">
                   {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> */}
