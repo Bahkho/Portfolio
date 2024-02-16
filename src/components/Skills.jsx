@@ -19,6 +19,7 @@ import java from "../assets/icons/java.svg";
 import cSharp from "../assets/icons/c-sharp.svg";
 import cPlusPlus from "../assets/icons/c-plus-plus.svg";
 import kotlin from "../assets/icons/kotlin.svg";
+import sqlie from "../assets/icons/sqlite.svg";
 
 const Skills = (props) => {
   const skills = [
@@ -71,18 +72,6 @@ const Skills = (props) => {
       style: "shadow-rose-400",
     },
     {
-      id: 13,
-      src: sql,
-      paragraph: "Microsoft SQL Server",
-      style: "shadow-red-700",
-    },
-    {
-      id: 9,
-      src: firebase,
-      paragraph: "Firebase",
-      style: "shadow-amber-600",
-    },
-    {
       id: 6,
       src: react,
       paragraph: "React JS",
@@ -95,10 +84,35 @@ const Skills = (props) => {
       style: "shadow-slate-500",
     },
     {
+      id: 13,
+      src: sql,
+      paragraph: "Microsoft SQL Server",
+      style: "shadow-red-700",
+    },
+    {
+      id: 18,
+      src: sqlie,
+      paragraph: "SQLite",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 9,
+      src: firebase,
+      paragraph: "Firebase",
+      style: "shadow-amber-600",
+    },
+
+    {
       id: 5,
       src: tailwind,
       paragraph: "Tailwind CSS",
       style: "shadow-cyan-500",
+    },
+    {
+      id: 12,
+      src: figma,
+      paragraph: "Figma",
+      style: "shadow-violet-600",
     },
 
     // {
@@ -139,12 +153,6 @@ const Skills = (props) => {
     //   paragraph: "Windows",
     //   style: "shadow-blue-600",
     // },
-    {
-      id: 12,
-      src: figma,
-      paragraph: "Figma",
-      style: "shadow-violet-600",
-    },
   ];
 
   return (

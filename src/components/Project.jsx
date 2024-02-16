@@ -1,5 +1,5 @@
 import React from "react";
-import collegePortfolio from "../assets/collegePortfolio.png";
+// import collegePortfolio from "../assets/collegePortfolio.png";
 import dataFinance from "../assets/dataFinance.png";
 import routing from "../assets/routing.png";
 import tenzies from "../assets/tenzies.png";
@@ -45,12 +45,12 @@ const Project = (props) => {
       demo: "https://coding-fun-facts.netlify.app",
       code: "https://github.com/Bahkho/Coding-Facts.git",
     },
-    {
-      id: 6,
-      src: collegePortfolio,
-      demo: "https://abdul-portfolio-site.netlify.app/index.html",
-      code: "https://github.com/Bahkho/e-portfolio-WEBD1000.git",
-    },
+    // {
+    //   id: 6,
+    //   src: collegePortfolio,
+    //   demo: "https://abdul-portfolio-site.netlify.app/index.html",
+    //   code: "https://github.com/Bahkho/e-portfolio-WEBD1000.git",
+    // },
   ];
 
   return (
