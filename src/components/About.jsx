@@ -1,5 +1,6 @@
 import React from "react";
-import pics from "../assets/image.jpg";
+// import pics from "../assets/pics.jpg";
+import picture from "../assets/image.jpg";
 
 const About = (props) => {
   return (
@@ -42,7 +43,7 @@ const About = (props) => {
           </div>
           <img
             className="w-[66%] mx-auto my-4 rounded-xl"
-            src={pics}
+            src={picture}
             alt="image"
           />
         </div>
