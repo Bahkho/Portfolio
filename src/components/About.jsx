@@ -1,6 +1,6 @@
 import React from "react";
 // import pics from "../assets/pics.jpg";
-import picture from "../assets/image.jpg";
+import picture from "../assets/images.jpg";
 
 const About = (props) => {
   return (
