@@ -21,12 +21,12 @@ const Project = (props) => {
       demo: "https://tenzies-game-01.netlify.app",
       code: "https://github.com/Bahkho/tenziesGame.git",
     },
-    {
-      id: 2,
-      src: memeGenerator,
-      demo: "https://meme-generator-00.netlify.app",
-      code: "https://github.com/Bahkho/memeGenerator.git",
-    },
+    // {
+    //   id: 2,
+    //   src: memeGenerator,
+    //   demo: "https://meme-generator-00.netlify.app",
+    //   code: "https://github.com/Bahkho/memeGenerator.git",
+    // },
     {
       id: 3,
       src: routing,
