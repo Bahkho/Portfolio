@@ -10,17 +10,12 @@ const Hero = (props) => {
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
           Bakare Abdulwahab
         </h1>
-        <p className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text font-bold p-2">
-          Software Developer
+        <p className=" bg-gradient-to-tr from-teal-600 to-cyan-600 text-transparent bg-clip-text md:text-4xl sm:text-2xl text-xl font-bold p-2">
+          IT Programmer
         </p>
         <div className="flex justify-center items-center">
-          <p className=" text-xs py-4 px-3">
-            I am a software developer with a solid track record of 2 years in
-            the industry. Leveraging my design expertise, I craft visually
-            stunning user interfaces for web applications. My dedication to
-            quality extends beyond aesthetics; I meticulously write tests and
-            conduct thorough debugging to ensure the flawless performance of the
-            software.
+          <p className=" text-m py-4 px-3">
+         
             {/* <br />
             In addition to my design and debugging proficiency, I specialize in
             developing analytical and functional web applications. Drawing upon

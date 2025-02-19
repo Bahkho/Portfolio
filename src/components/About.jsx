@@ -12,34 +12,27 @@ const About = (props) => {
               About Me
             </h1>
             <p>
-              I go by the name Bahkho, and I am a dedicated student at NSCC
-              (Nova Scotia Community College) pursuing a degree in IT
-              Programming. My journey in the world of technology began with a
-              strong inclination towards web development, which remains my
-              primary focus. Starting with web development, I soon expanded my
-              skills to include Python programming. My commitment to growth has
-              led me to thoroughly research industry roadmaps and diligently
-              follow online tutorials to enhance my expertise.
+              I am a passionate <strong>IT programmer</strong> with a 
+              <strong> 2-year diploma in IT Programming from Nova Scotia Community College (NSCC)</strong>. 
+              My expertise lies in <strong>full-stack development, cloud computing, and software engineering</strong>. 
+              I have hands-on experience building web applications using 
+              <strong> React.js, Node.js, Express, and databases like MongoDB and Firebase</strong>.
               <br />
               <br />
-              My passion for programming was first recognized by my parents, who
-              encouraged me to further my education at NSCC. This decision has
-              been instrumental in shaping my career in the IT field.
+              With a strong foundation in <strong>problem-solving, data structures, and algorithms</strong>, 
+              I am constantly improving my skills in <strong>DevOps, cloud computing, and cybersecurity</strong>. 
+              I enjoy working on innovative projects that enhance user experience and streamline processes.
               <br />
               <br />
-              Beyond coding, I have a diverse range of interests. In my free
-              time, I enjoy the thrill of playing basketball and indulge in my
-              fascination with crime movies. These interests provide a
-              well-rounded perspective that complements my technical skills.
+              Currently, I am exploring <strong>cloud technologies like AWS and Azure</strong>, aiming to integrate 
+              scalable and secure solutions into my development workflow. My goal is to 
+              <strong> leverage technology to create impactful and efficient applications</strong>.
               <br />
-              <br />I am driven by a continuous quest for knowledge and an
-              unwavering dedication to my craft. I am excited about the
-              opportunities that the world of IT programming offers and am
-              committed to making a meaningful contribution. My journey is
-              marked by a strong foundation in web development, proficiency in
-              Python, and a relentless pursuit of excellence in the dynamic
-              field of technology.
+              <br />
+              Beyond coding, I enjoy playing football, going to the gym, traveling, and watching crime and action movies. 
+              These hobbies give me a well-rounded perspective and keep me motivated in my tech journey.
             </p>
+
           </div>
           <img
             className="w-[66%] mx-auto my-4 rounded-xl"
